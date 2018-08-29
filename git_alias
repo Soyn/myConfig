@@ -1,0 +1,11 @@
+[alias]
+	co = checkout
+	br = branch -vv
+	ci = commit
+	st = status
+	ci-NV = commit --no-verify
+	st = status -s
+	lg = log --pretty=full --abbrev-commit --decorate --graph --all
+	clearBr = branch -D
+	deleteRemoteBr = push origin --delete
+	show-alias = config --get-regexp alias
